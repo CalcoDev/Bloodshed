@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ff245e7dcc4889bf8ec150c5e21b4d, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  gravityScale: 1
+  fallGravityMultiplier: 2
+  acceleration: 16
+  deceleration: 20
+  turnSpeed: 30
+  airAcceleration: 14
+  airDeceleration: 16
+  airTurnSpeed: 20
+  groundDrag: 0.2
+  airDrag: 0.15
+  grappleDrag: 0.1
+  walkSpeed: 12
+  crouchSpeed: 6
+  velocityExponent: 0.85
+  crouchHeight: 0.5
+  jumpForce: 15
+  jumpCount: 2
+  jumpCutMultiplier: 0.5
+  jumpCoyoteTime: 0.15
+  jumpBufferTime: 0.1
+  dashSpeed: 40
+  dashAttackDrag: 0
+  dashEndDrag: 0.3
+  dashAttackTime: 0.1
+  dashEndTime: 0.05
+  maxDashDistance: 10
+  dashCooldown: 0.25
+  maxGrappleDistance: 30
+  grapplePullForce: 100
+  grappleFrequency: 1
+  grappleDamping: 0.45
+  minGrappleDistanceMultiplier: 0.25
+  minGrappleDistance: 1
+  grappleStopForce: 15
